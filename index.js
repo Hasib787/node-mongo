@@ -6,7 +6,8 @@ const app = express();
 app.get('/', (req, res) =>{
     const fruit ={
         product: 'laptop',
-        price: 550
+        price: 550,
+        quantity: 1
     }
     res.send(fruit);
 })
